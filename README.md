@@ -291,7 +291,7 @@ npm run dev
 
 ## 📱 Live Demo
 
-Visit the live application: [🌐 Video Frame Detective](https://hackathon-candidate-problem-solving.vercel.app/)
+Visit the live application: [🌐 Hackathon Candidate Problem-Solving Quiz](https://hackathon-candidate-problem-solving.vercel.app/)
 
 ---
 
