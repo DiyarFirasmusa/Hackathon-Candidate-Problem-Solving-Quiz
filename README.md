@@ -160,21 +160,20 @@ console.log("Total Missing Frames:", result2.totalMissingFrames);
    - أداء محسن للتطبيقات عالية الأداء
    - تعقيد زمني: O(n)
 
-## code solve
+### code solve
 
-<div align="auto">
 function findMissingFrameData(frames: number[]): {
-  gaps: [number, number][];
-  longest_gap: [number, number] | null;
-  missing_count: number;
+gaps: [number, number][];
+longest_gap: [number, number] | null;
+missing_count: number;
 } {
-  if (!frames || frames.length === 0) {
-    return {
-      gaps: [],
-      longest_gap: null,
-      missing_count: 0
-    };
-  }
+if (!frames || frames.length === 0) {
+return {
+gaps: [],
+longest_gap: null,
+missing_count: 0
+};
+}
 
 const frameSet: Set<number> = new Set(frames);
 const maxFrame: number = Math.max(...frames);
@@ -240,8 +239,6 @@ const frames4_ts: number[] = [1, 2, 3];
 const result4_ts = findMissingFrameData(frames4_ts);
 console.log(`Input: [${frames4_ts}]`);
 console.log(result4_ts);
-
-</div>
 
 ## 🚀 التشغيل السريع
 
