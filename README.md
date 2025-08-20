@@ -28,7 +28,7 @@ Video Frame Detective هو تطبيق ويب متطور يحل مشكلة **كش
 
 ## code solve
 
-<div align="center">
+<div align="auto">
    function findMissingFrames(frames: number[]): number[] {
   if (!Array.isArray(frames) || frames.length === 0) {
     return [];
@@ -87,7 +87,7 @@ console.log('---');
 
 ## code solve
 
-<div align="center">
+<div align="auto">
 function findMissingFrames(frames: number[]): {
   missingRanges: [number, number][];
   longestMissingRange: [number, number] | null;
@@ -162,7 +162,7 @@ console.log("Total Missing Frames:", result2.totalMissingFrames);
 
 ## code solve
 
-<div align="center">
+<div align="auto">
 function findMissingFrameData(frames: number[]): {
   gaps: [number, number][];
   longest_gap: [number, number] | null;
