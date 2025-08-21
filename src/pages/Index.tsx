@@ -31,15 +31,21 @@ const Index = () => {
               </h1>
               <Shield className='w-6 h-6 md:w-8 md:h-8 text-accent' />
             </div>
-            <p className='text-base md:text-xl text-muted-foreground max-w-2xl mx-auto px-2'>
+            <p className='text-base md:text-xl text-muted-foreground max-w-2xl mx-auto px-2 sm:mb-0 mb-8'>
               نظام متطور لكشف الإطارات المفقودة في المراقبة الذكية
             </p>
             <div className='flex flex-col sm:flex-row justify-center gap-2 mt-3 md:mt-4'>
-              <Badge variant='secondary' className='cyber-frame text-xs md:text-sm'>
+              <Badge
+                variant='secondary'
+                className='cyber-frame text-xs md:text-sm flex items-center justify-center'
+              >
                 <Activity className='w-3 h-3 md:w-4 md:h-4 mr-1' />
                 Real-time Detection
               </Badge>
-              <Badge variant='secondary' className='cyber-frame text-xs md:text-sm'>
+              <Badge
+                variant='secondary'
+                className='cyber-frame text-xs md:text-sm flex items-center justify-center'
+              >
                 <Target className='w-3 h-3 md:w-4 md:h-4 mr-1' />
                 Advanced Analytics
               </Badge>
@@ -48,7 +54,7 @@ const Index = () => {
 
           <div className='max-w-6xl mx-auto '>
             <Tabs defaultValue='basic' className='space-y-4 md:space-y-6'>
-              <TabsList className='grid w-full mb-20 sm:mb-0 grid-cols-1 sm:grid-cols-3 bg-card border border-primary/20'>
+              <TabsList className='grid w-full sm:gap-0 gap-3  mb-24 sm:mb-0 grid-cols-1 sm:grid-cols-3 bg-card border border-primary/20'>
                 <TabsTrigger
                   value='basic'
                   className='data-[state=active]:bg-primary data-[state=active]:text-primary-foreground text-xs md:text-sm'
